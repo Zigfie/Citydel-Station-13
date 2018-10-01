@@ -2,14 +2,14 @@
 AI
 */
 /datum/job/ai
-	title = "AI"
+	title = "Local AI Overmind"
 	flag = AI_JF
 	department_flag = ENGSEC
-	faction = "Station"
+	faction = "City"
 	total_positions = 1
 	spawn_positions = 1
 	selection_color = "#ccffcc"
-	supervisors = "your laws"
+	supervisors = "your laws, and the True AI Overmind"
 	req_admin_notify = TRUE
 	minimal_player_age = 30
 	exp_requirements = 180
@@ -69,13 +69,13 @@ AI
 Cyborg
 */
 /datum/job/cyborg
-	title = "Cyborg"
+	title = "Synthetic"
 	flag = CYBORG
 	department_flag = ENGSEC
-	faction = "Station"
+	faction = "City"
 	total_positions = 0
 	spawn_positions = 1
-	supervisors = "your laws and the AI"	//Nodrak
+	supervisors = "your laws and the Local AI Overmind"	//Nodrak
 	selection_color = "#ddffdd"
 	minimal_player_age = 21
 	exp_requirements = 120

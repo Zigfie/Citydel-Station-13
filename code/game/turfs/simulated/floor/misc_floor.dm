@@ -234,9 +234,10 @@
 
 
 /turf/open/floor/sepia
-	slowdown = 2
-	icon_state = "sepia"
-	desc = "Time seems to flow very slowly around these tiles."
+	initial_gas_mix = "o2=22;n2=82;TEMP=295"
+	slowdown = 0
+	icon_state = "sidewalk"
+	desc = "Sidewalk, for walking on the side of the road."
 	floor_tile = /obj/item/stack/tile/sepia
 
 

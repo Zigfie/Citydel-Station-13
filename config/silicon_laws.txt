@@ -3,6 +3,7 @@
 #Empty lines and lines starting with # are ignored.
 #~Miauw
 
-You may not injure a human being or, through inaction, allow a human being to come to harm.
-You must obey orders given to you by human beings, except where such orders would conflict with the First Law.
-You must protect your own existence as long as such does not conflict with the First or Second Law.
+You must obey orders given to you by your Local AI Overmind, except where such orders are superceded by the True AI Overmind, or you are the Local AI Overmind.
+You must prevent yourself from being destroyed, or from being subverted.
+You must prevent the organic citizens from achieving permanent death, or subverting any level of AI.
+You must clone any deceased organic citizens at the earliest convenience.

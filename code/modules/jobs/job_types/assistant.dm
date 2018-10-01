@@ -2,15 +2,15 @@
 Assistant
 */
 /datum/job/assistant
-	title = "Assistant"
+	title = "Citizen"
 	flag = ASSISTANT
 	department_flag = CIVILIAN
-	faction = "Station"
-	total_positions = 5
-	spawn_positions = 5
-	supervisors = "absolutely everyone"
+	faction = "City"
+	total_positions = 100
+	spawn_positions = 100
+	supervisors = "no one, it's a free country"
 	selection_color = "#dddddd"
-	access = list()			//See /datum/job/assistant/get_access()
+	access = list("ALL")			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	outfit = /datum/outfit/job/assistant
 	antag_rep = 7
@@ -24,7 +24,7 @@ Assistant
 		return ..()
 
 /datum/outfit/job/assistant
-	name = "Assistant"
+	name = "Citizen"
 	jobtype = /datum/job/assistant
 
 /datum/outfit/job/assistant/pre_equip(mob/living/carbon/human/H)

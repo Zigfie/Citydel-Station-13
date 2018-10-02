@@ -4,5 +4,5 @@
 /datum/job
 	var/dresscodecompliant = TRUE
 
-/datum/job/assistant
+/datum/job/citizen
 	dresscodecompliant = FALSE

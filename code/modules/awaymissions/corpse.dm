@@ -280,7 +280,6 @@
 
 /obj/effect/mob_spawn/human/corpse/assistant
 	name = "Assistant"
-	outfit = /datum/outfit/job/assistant
 
 /obj/effect/mob_spawn/human/corpse/assistant/beesease_infection
 	disease = /datum/disease/beesease

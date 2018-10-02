@@ -125,5 +125,5 @@ GLOBAL_PROTECT(exp_specialmap)
 	job = doc_expand.Replace(job, "medical doctor")
 	job = mine_expand.Replace(job, "shaft miner")
 	job = chef_expand.Replace(job, "cook")
-	job = borg_expand.Replace(job, "cyborg")
+	job = borg_expand.Replace(job, "synthetic")
 	return job

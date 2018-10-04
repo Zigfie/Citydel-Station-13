@@ -1753,6 +1753,7 @@
 #include "code\modules\jobs\jobs.dm"
 #include "code\modules\jobs\job_types\captain.dm"
 #include "code\modules\jobs\job_types\cargo_service.dm"
+#include "code\modules\jobs\job_types\citizen.dm"
 #include "code\modules\jobs\job_types\civilian.dm"
 #include "code\modules\jobs\job_types\civilian_chaplain.dm"
 #include "code\modules\jobs\job_types\engineering.dm"

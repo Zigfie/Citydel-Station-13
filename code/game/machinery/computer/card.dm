@@ -27,7 +27,7 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 	//Jobs you cannot open new positions for
 	var/list/blacklisted = list(
 		"AI",
-		"Assistant",
+		"Citizen",
 		"Cyborg",
 		"Captain",
 		"Head of Personnel",

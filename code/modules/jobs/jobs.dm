@@ -55,8 +55,8 @@ GLOBAL_LIST_INIT(security_positions, list(
 ))
 
 GLOBAL_LIST_INIT(nonhuman_positions, list(
-	"Local AI Overmind",
-	"Synthetic",
+	"AI",
+	"Cyborg",
 	ROLE_PAI))
 
 GLOBAL_LIST_INIT(exp_jobsmap, list(

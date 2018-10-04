@@ -2,7 +2,7 @@
 AI
 */
 /datum/job/ai
-	title = "Local AI Overmind"
+	title = "AI"
 	flag = AI_JF
 	department_flag = ENGSEC
 	faction = "City"
@@ -30,7 +30,7 @@ AI
 				GLOB.latejoin_ai_cores -= P
 				break
 		if(lateJoinCore)
-			lateJoinCore.available = FALSE
+			lateJoinCore.available = TRUE
 			H.forceMove(lateJoinCore.loc)
 			qdel(lateJoinCore)
 	var/mob/living/silicon/ai/AI = H
@@ -69,19 +69,19 @@ AI
 Cyborg
 */
 /datum/job/cyborg
-	title = "Synthetic"
+	title = "Cyborg"
 	flag = CYBORG
 	department_flag = ENGSEC
 	faction = "City"
-	total_positions = 0
-	spawn_positions = 1
-	supervisors = "your laws and the Local AI Overmind"	//Nodrak
+	total_positions = 12
+	spawn_positions = 12
+	supervisors = "your laws, the local AI, and the True AI Overmind"	//Nodrak
 	selection_color = "#ddffdd"
 	minimal_player_age = 21
 	exp_requirements = 120
 	exp_type = EXP_TYPE_CREW
 
-/datum/job/cyborg/equip(mob/living/carbon/human/H, visualsOnly = FALSE, announce = TRUE, latejoin = FALSE, outfit_override = null)
+/datum/job/cyborg/equip(mob/living/carbon/human/H, visualsOnly = FALSE, announce = TRUE, latejoin = TRUE, outfit_override = null)
 	return H.Robotize(FALSE, latejoin)
 
 /datum/job/cyborg/after_spawn(mob/living/silicon/robot/R, mob/M)

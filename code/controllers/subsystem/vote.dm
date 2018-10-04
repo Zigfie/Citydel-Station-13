@@ -16,7 +16,7 @@ SUBSYSTEM_DEF(vote)
 	var/list/voting = list()
 	var/list/generated_actions = list()
 
-	var/obfuscated = FALSE//CIT CHANGE - adds obfuscated/admin-only votes
+	var/obfuscated = TRUE//CIT CHANGE - adds obfuscated/admin-only votes
 
 /datum/controller/subsystem/vote/fire()	//called by master_controller
 	if(mode)
@@ -189,7 +189,7 @@ SUBSYSTEM_DEF(vote)
 			if("gamemode")
 				choices.Add(config.votable_modes)
 			if("roundtype") //CIT CHANGE - adds the roundstart secret/extended vote
-				choices.Add("secret", "extended")
+				choices.Add("extended")
 			if("custom")
 				question = stripped_input(usr,"What is the vote for?")
 				if(!question)

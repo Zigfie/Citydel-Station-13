@@ -40,7 +40,7 @@ Roboticist=0,0
 
 Warden=0,0
 Detective=0,0
-Security Officer=0,0Local 
+Security Officer=0,0
 
-AI Overmind=1,1
-Synthetic=12,12
+AI=1,1
+Cyborg=12,12
